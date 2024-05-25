@@ -22,6 +22,7 @@ Check out the [tutorial](https://testdriven.io/developing-a-single-page-app-with
 
 1. Run the client-side Vue app in a different terminal window:
 
+    use nvm to install nodejs first
     ```sh
     $ cd client
     $ npm install
