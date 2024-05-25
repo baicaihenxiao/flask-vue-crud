@@ -32,3 +32,17 @@ Check out the [tutorial](https://testdriven.io/developing-a-single-page-app-with
     ```
 
     Navigate to [http://localhost:5173](http://localhost:5173)
+
+
+## CORS
+```vue
+axios.get(path,{headers: {"Access-Control-Allow-Origin": "*"}})
+        .then((res) => {
+          this.books = res.data.books;
+        })
+```
+
+
+<https://www.cnblogs.com/kangssssh/p/17165664.html>
+
+<https://www.cnblogs.com/mylqm/p/17653660.html>
