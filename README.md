@@ -10,6 +10,7 @@ Check out the [tutorial](https://testdriven.io/developing-a-single-page-app-with
 
 1. Run the server-side Flask app in one terminal window:
 
+    `--host="0.0.0.0"` to make the server accessible from open network
     ```sh
     $ cd server
     $ python3 -m venv env
@@ -22,11 +23,12 @@ Check out the [tutorial](https://testdriven.io/developing-a-single-page-app-with
 
 1. Run the client-side Vue app in a different terminal window:
 
+    `-- --host` to make the server accessible from open network
     use nvm to install nodejs first
     ```sh
     $ cd client
     $ npm install
-    $ npm run dev
+    $ npm run dev -- --host
     ```
 
     Navigate to [http://localhost:5173](http://localhost:5173)
