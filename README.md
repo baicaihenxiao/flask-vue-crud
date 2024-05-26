@@ -41,8 +41,11 @@ axios.get(path,{headers: {"Access-Control-Allow-Origin": "*"}})
           this.books = res.data.books;
         })
 ```
+-- FROM <https://blog.csdn.net/m0_56699208/article/details/125597260>
 
 
-<https://www.cnblogs.com/kangssssh/p/17165664.html>
+[前后端分离-跨域问题详解](https://www.cnblogs.com/kangssssh/p/17165664.html)
 
-<https://www.cnblogs.com/mylqm/p/17653660.html>
+[使用vite+vue+flask实现一个简单的前后端交互效果](https://blog.csdn.net/Alex_Zhugy/article/details/137230990)
+
+[常见的六种跨域解决方案](https://www.cnblogs.com/mylqm/p/17653660.html)
